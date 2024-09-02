@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let div1=document.createElement("div");
+        document.body.appendChild(div1);
+        div1.style.border="2px solid transparent";
+        div1.style.width="200px";
+        div1.style.borderRadius="40px";
+        div1.style.display="flex";
+        div1.style.flexDirection="column";
+        div1.style.alignItems="center";
+        div1.style.padding="20px";
+        div1.style.backgroundColor=" aqua";
+        div1.style.boxShadow="2px 2px 20px";
+        let ph=document.createElement("img");
+        div1.appendChild(ph);
+        ph.setAttribute("src" , "./assets/images/divya.jpg");
+        ph.style.width="70%";
+        ph.style.height="55%";
+        ph.style.borderRadius="40px"
+        let nm=document.createElement("h3");
+        div1.appendChild(nm);
+        nm.innerHTML="S. Sai Divya";
+        let ag=document.createElement("p");
+        div1.appendChild(ag);
+        ag.innerHTML="age: 21";
+        let bg=document.createElement("p");
+        div1.appendChild(bg);
+        bg.innerHTML="Blood Group: AB+"
+    </script>
+</body>
+</html>
